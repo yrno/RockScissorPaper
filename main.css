@@ -1,29 +1,40 @@
 body {
     background-color:#404047;
 }
-button {
-    border-color:#FFFFFF;
-    color:#FFFFFF;
-    background-color:#606066;
-    width:350px;
-    height:350px
-}
-button:hover {
+.box:hover {
     background-color:#838383;
     filter:drop-shadow(0px 0px 10px)
 }
 .box {
-    height:50%;
-    width:50%;
     color:#FFFFFF;
-    background: color #606066;
- 
-}
-.UI {
-    padding:30px;
+    background-color: #606066;
+    border-color:#FFFFFF;
+    border:3px solid #FFFFFF;
+
+    height:30%;
+    width:200px;
+
     float:left;
-    text-align: center;
+    text-align:center;
+}
+    .box1 {
+        color:#FFFFFF;
+        background-color: #606066;
+        border-color:#FFFFFF;
+        border:3px solid #FFFFFF;
+    
+        height:200px;
+        width:200px;
+    
+        float:right;
+        text-align:center;
+
+}
+.buttons {
 }
 img {
-    width:250px;
+    width:100%;
+}
+.Feedback {
+    width:200px;
 }
