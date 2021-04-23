@@ -6,5 +6,6 @@ var inputs = ["rock", "paper", "scissor"];
 function playGame (user){
     Math.floor(Math.random())
     console.log(inputs[Math.floor(Math.random()*3)]);
-    document.getElementById("Feedback").src = "images/"inputs[Math.floor(Math.random()*3)]".png"
+    document.getElementById("Feedback").src = "images/" + inputs[Math.floor(Math.random()*3)] + ".png";
+    console.log("images/" + inputs[Math.floor(Math.random()*3)] + ".png");
 }   
